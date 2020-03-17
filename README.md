@@ -1,4 +1,4 @@
-# vuejs* playground
+# vuejs playground
 
 This is my playground for learning hands on experience with vuejs
 
@@ -12,12 +12,12 @@ Github username
 
 # Output
 
-* name 
-* email 
-* avatar 
-* company 
-* location 
-* number of repos 
-* number of public gists 
-* number of followers 
-* number of following
+- name
+- email
+- avatar
+- company
+- location
+- number of repos
+- number of public gists
+- number of followers
+- number of following
