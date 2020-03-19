@@ -36,11 +36,5 @@ After cloning the repo. and from the project's root folder, `vuejs-playground` f
     ... 
  ```
 
-<<<<<<< HEAD
+
  If you would like to run it locally. i.e from the local filesystem, you have to rmove the prefixed slash of the src attribute of the script tag in `index.html` to be `build/main.js` instead of `/build/main.js`.
-
- 
-=======
- However, if you have any way to host it via any http server, doing that is better. One suggested way to do that if you have PHP installed on your system is to run `php -S localhost:8000` from the project's root folder.
-
->>>>>>> 6cd4242d1fb65f1af4a89589033945a0c53a2424
