@@ -24,16 +24,18 @@ Github username
 
 # How to install?
 
-After cloning the repo. and from the project's root `vuejs-playground` folder do the following:
+After cloning the repo. and from the project's root folder, `vuejs-playground` folder do the following:
 
- 1. `npm install vue`
- 2. `npm install webpack`
- 3. `npm install babel-core babel-loader`
- 4. `npm install babel-cli babel-preset-es2015`
- 5. `npm install vue-template-compiler`
- 6. `npm install css-loader`
- 7. `npm run build`
+ 1. `npm install` to install all dependencies in `package.json`
+ 2. `npm run start` to automatically open the default browser on local http server. Checkout [live-server](https://www.npmjs.com/package/live-server#usage-from-command-line) documenation in order to know some customization features of it in `package.json` for example, to start it on port 8888:
 
- If you would like to run it locally. i.e from the local filessystem, you have to rmove the prefixed slash of the src attribute of the script tag in `index.html` to be `build/main.js` instead of `/build/main.js`.
+ ```
+ ...
+ "scripts": {
+    "start": "live-server --port=8888",
+    ... 
+ ```
 
- However, if you have any way to host it via any http server, doing that is better. One suggested way to do that if you have PHP installed on your system is to run `php -S localhost:8000` from the project's root folder.
+ If you would like to run it locally. i.e from the local filesystem, you have to rmove the prefixed slash of the src attribute of the script tag in `index.html` to be `build/main.js` instead of `/build/main.js`.
+
+ 
